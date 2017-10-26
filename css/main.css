@@ -1,0 +1,704 @@
+/*Fonts*/
+
+/* Font Family - Lato */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/latoregular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latoregular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latoregular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latoregular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latoregular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Bold*/
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('../fonts/latobold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latobold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latobold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latobold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latobold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato SemiBold*/
+@font-face {
+  font-family: 'Lato SemiBold';
+  src: url('../fonts/latosemibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latosemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latosemibold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latosemibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latosemibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Italic*/
+@font-face {
+  font-family: 'Lato Italic';
+  src: url('../fonts/latoitalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latoitalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latoitalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latoitalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latoitalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Light*/
+@font-face {
+  font-family: 'Lato Light';
+  src: url('../fonts/latolight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latolight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latolight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latolight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latolight.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Lato Medium*/
+@font-face {
+  font-family: 'Lato Medium';
+  src: url('../fonts/latomedium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/latomedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/latomedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/latomedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/latomedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Font Family - Myriad Pro*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/myriadpro.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/myriadpro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/myriadpro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/myriadpro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/myriadpro.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*Teks*/
+
+p {
+  font-size: 14px;
+  line-height: 22.4px;
+  letter-spacing: 0;
+  color: #6c7279; }
+
+h1 {
+  font-size: 65px;
+  color: #2d3033; }
+
+h2 {
+  font-size: 40px;
+  color: #2d3033; }
+
+h3 {
+  font-size: 28px;
+  color: #2d3033;
+  font-weight: 300; }
+
+h4 {
+  font-size: 22px;
+  color: #2d3033;
+  font-weight: 400; }
+
+h5 {
+  font-family: "Lato Bold", Fallback, sans-serif;
+  font-size: 14px;
+  color: #2d3033;
+  text-transform: uppercase;
+}
+
+/*Header Style*/
+
+.logo{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.navbar-default {
+    margin: 0;
+    background: #fff;
+}
+
+.navbar-collapse{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.navbar-search {
+    width: 190%;
+}
+
+.navbar-search .input-group-addon {
+    border : 0;
+    background: #f8f8f8;
+    text-align: right;
+    width: 50%;
+}
+
+.nav a{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.form-control {
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+    border : 0;
+    background: #f8f8f8;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline-offset: 0;
+}
+:focus {
+    outline: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+.btn-search{
+    background: #f8f8f8;
+    border: 0;
+    height: 15px;
+    width: 20px;
+}
+
+.btn-default{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    color: #ed0d7d;
+    text-transform: uppercase;
+    width: 155px;
+    height: 40px;
+    border-color: #ed0d7d;
+    margin-left: 60px;
+    margin-right: 65px;
+}
+
+.btn-default:hover{
+    background: #ed0d7d;
+    border-color: #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.glyphicon{
+    top: -7px; 
+    right: 9px;
+}
+
+/*Body Style*/
+
+.banner{
+    background-image: url(../images/bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 615px;
+}
+
+.banner-text{
+    padding-top: 105px;
+}
+
+.banner-text h1{
+  font-size: 48px;
+  font-family: "Lato Bold";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+  text-align: center;
+    margin: 0;
+    letter-spacing: 0.056em;
+}
+
+.banner-text h4 {
+  font-size: 24px;
+  font-family: "Lato Medium";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+  text-align: center;
+    margin: 0;
+    letter-spacing: 0.17em;
+}
+
+.banner-text p{
+    font-size: 22px;
+  font-family: "Lato", Fallback sans-serif;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.636;
+  text-align: center;
+    margin: 0;
+    margin-bottom: 36px;
+    letter-spacing: 0.056em;
+}
+
+.banner-text .banner-caption {
+     width: 64%;
+    margin: auto;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.import{
+    width: 66.66666667%;
+    margin: auto; 
+    margin-top: 90px;
+}
+
+.form-import{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    width: 100%;
+    height: 55px;
+    border: 0;
+}
+
+.btn-search-url{
+    font-family: "Lato SemiBold", Fallback sans-serif;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    width: 165px;
+    height: 55px;
+    border-color: #ed0d7d;
+    background-color: #ed0d7d;
+    border: 0;
+    border-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.import .input-group-addon{
+    width: 60px;
+    padding: 0;
+    border: 0;
+    background: #fff;
+}
+
+.feature {
+    min-height: 610px;
+}
+
+.feature-text{
+    padding-top:  90px;
+}
+
+.feature-text h1{
+    font-family: "Lato SemiBold", Fallback sans-serif;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.feature-text p {
+    font-family: "Lato Light", Fallback sans-serif;
+    font-size: 24px;
+    color: #333;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    width: 66.66666667%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.feature-content h5{
+    font-family: "Lato SemiBold", Fallback sans-serif;
+    font-size: 17.98px;
+    line-height: 44.95px;
+    letter-spacing: 0.019em;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-content p {
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.009em;
+    width: 66.66666667%;
+    margin: auto;
+}
+
+.team {
+    min-height: 650px;
+}
+
+/*
+.team-text{
+    height: 143px;
+    width: 100%;
+    position: absolute;
+}
+*/
+.team-text h1{
+    font-family: "lato SemiBold", Fallback sans-serif;
+    font-size: 36px;
+    line-height: 45px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.team-text p{
+    font-family: "Lato Italic", Fallback sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    letter-spacing: 0.025em;
+/*    width: 66.66666667%;*/
+    margin: auto;
+    margin-top: 85px;
+}
+
+.owl-theme{
+    margin-top: 100px;
+}
+
+.item{
+/*    width: 131px;*/
+    margin: auto;
+}
+
+.item h4{
+    font-family: "Myriad Pro", Fallback sans-serif;
+    font-size: 21.98px;
+    line-height: 44.96px;
+    letter-spacing: 0.067em;
+    width: 50%;
+    margin: auto;
+}
+
+.item p{
+    font-family: "Lato Italic", Fallback sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    letter-spacing: 0.025em;
+    text-align: center;
+/*    width: 60%;*/
+    margin: auto;
+    margin-top: 10px;
+}
+
+.quote{
+    position: absolute;
+}
+
+.quote-left{
+    left: -89px;
+    top: 0;
+}
+
+.quote-right{
+    right: -89px;
+    bottom: 0;
+}
+
+.team1{
+    border: 1px solid #ed0d7d;
+    border-radius: 100%;
+    width: 131px;
+    height: 131px;
+    margin: auto;
+}
+
+.team2{
+    border: 1px solid #ed0d7d;
+    border-radius: 100%;
+    width: 131px;
+    height: 131px;
+    margin: auto;
+}
+
+.team3{
+    border: 1px solid #ed0d7d;
+    border-radius: 100%;
+    width: 131px;
+    height: 131px;
+    margin: auto;
+}
+
+.team4{
+    border: 1px solid #ed0d7d;
+    border-radius: 100%;
+    width: 131px;
+    height: 131px;
+    margin: auto;
+}
+
+.team5{
+    border: 1px solid #ed0d7d;
+    border-radius: 100%;
+    width: 131px;
+    height: 131px;
+    margin: auto;
+}
+
+.member p{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.067em;
+    width: 57.666667%;
+    margin: auto;
+}
+
+.form{
+    min-height: 600px;
+    background-image: url(../images/bg1.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.form-text p{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    width: 73.33333333%;
+    margin-top: 70px;
+}
+
+.import-2{
+    width: 66.66666667%;
+    margin-top: 70px;
+    box-shadow: 0px 10px 22.62px 6.38px rgba(0, 0, 0, 0.13);
+}
+
+.form-import-2{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    width: 96%;
+    height: 55px;
+    border: 0;
+    margin: 10px;
+}
+
+.import-2 .input-group-addon{
+    width: 60px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 0;
+    background: #fff;    
+}
+
+.btn-search-link{
+    font-family: "Lato Bold", Fallback sans-serif;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    width: 115px;
+    height: 35px;
+    border-color: #ed0d7d;
+    background-color: #ed0d7d;
+    border: 0;
+    border-radius: 4px;
+}
+
+/* Bootstrap Carousel */
+.carousel{
+    height: 450px;    
+}
+
+.carousel-control{
+    width: 0;
+    top: auto;
+    bottom: 150px;
+}
+.carousel-caption{
+    position: relative;
+    width:  63.66667%;
+    margin: auto;
+    text-shadow: none;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.carousel-indicators{
+    width: 64%;
+    height: 45%;
+}
+.carousel-indicators .active,
+.carousel-indicators li{
+    height: 250px;
+    width: 140px;
+    text-indent: inherit;
+}
+
+.carousel-indicators .active{
+    opacity: 1;
+}
+
+.carousel-indicators li{
+    opacity: 0.5;
+}
+
+/*Footer*/
+
+.footer{
+    background-image: url(../images/fbg.png);
+    min-height: 605px;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+.footer-text h1{
+    font-family: "Lato SemiBold", Fallback sans-serif;
+    font-size: 36px;
+    color: #fff;
+    line-height: 45px;
+    width: 33.33333333%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.btn-request{
+    font-family: "Lato Bold", Fallback sans-serif;
+    font-size: 14px;
+    color: #3fbaeb;
+    border: 0;
+    letter-spacing: 0.08em;
+    width: 245px;
+    height: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 45px;
+}
+
+.btn-request:hover{
+    color: #fff;
+    background: #333;
+    opacity: 0.8;
+    transition: 0.5s;
+    outline: none;
+}
+
+.contact{
+    margin-top: 120px;
+}
+
+.logo-footer {
+    margin-top: 20pxpx;
+}
+
+.social {
+    margin-top: 20pxpx;
+    padding-left: 55px;
+}
+
+.social p{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.039em;
+    text-decoration: none;
+}
+
+.social-icon{
+    display: inline-block;
+}
+
+.img-icon {
+    margin-top: 20pxpx;
+    padding-left: 10px;
+    text-align: right;
+}
+
+.address p{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.copyright p{
+    font-family: "Lato", Fallback sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 75px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*Responsive*/
+
+@media screen and (max-width : 1199px) {
+    .navbar-default {
+        margin-bottom: 20px;
+    }
+    .navbar-header {
+        display: block;
+        float: none;
+    }
+    .navbar-brand {
+        height: auto;
+        display: block;
+        width: 100%;    
+        margin-left: 0;
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-left{
+        float: none !important;
+        text-align: center;
+    }
+    .form-group{
+        display: block;
+        text-align: center;
+    }
+    .navbar-search{
+        width: 400px;
+    }
+    .navbar-right{
+        float: none !important; 
+        margin-right: 0;
+        text-align: center;
+    }
+    .nav li{
+        float: none;
+        display: inline-block;
+    }
+    .nav a {
+        margin-left: 0;
+    }
+    .btn-default{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
